@@ -13,7 +13,7 @@ class ModernLitematicConverterGUI:
         self.root.title('Litematic to Blueprint Converter')
         self.root.geometry('900x700')
         self.root.resizable(True, True)
-        self.root.state('zoomed')
+        self.root.wm_attributes('-zoomed',True)
         self.colors = {'bg_primary': '#1a1a1a', 'bg_secondary': '#2d2d2d',
             'bg_tertiary': '#3a3a3a', 'accent': '#00d4ff', 'accent_hover':
             '#00b8e6', 'success': '#00ff88', 'error': '#ff4757', 'warning':
